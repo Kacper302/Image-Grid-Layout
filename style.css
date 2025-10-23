@@ -1,0 +1,29 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+#container{
+    height: 100vh;
+    display: grid;
+    grid-template-columns: 3fr 3fr 3fr;
+    grid-template-rows: 3fr 3fr 3fr;
+    grid-template-areas: 
+    "obraz1 obraz3 obraz5"
+    "obraz2 obraz4 obraz5"
+    "obraz2 obraz4 obraz6";
+    ;
+}
+.obraz1{grid-area: obraz1;}
+.obraz2{grid-area: obraz2;}
+.obraz3{grid-area: obraz3;}
+.obraz4{grid-area: obraz4;}
+.obraz5{grid-area: obraz5;}
+.obraz6{grid-area: obraz6;}
+
+.obraz{
+    width: auto;
+    height: auto;
+   
+
+}
